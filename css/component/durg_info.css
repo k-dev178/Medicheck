@@ -26,13 +26,18 @@
 }
 
 .Drug_status__info__texts p:last-child{
-    margin-top: 5px;
+    margin-top: -10px;
     opacity: 0.4;
 }
 
 .Drug_status__info__btndiv{
-    width: 80px;
-
+    width: 35%;
+    margin-right: 20px;
     display: flex;
     justify-content: end;
+    
+}
+
+.Drug_status__info__btndiv button{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
