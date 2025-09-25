@@ -65,7 +65,7 @@ body{
     opacity: 0.3;
 }
 
-#main_header a{
+#main_header div:first-child a{
     margin-top: 10px;
 
     font-size: 22px;
@@ -73,6 +73,16 @@ body{
 
     opacity: 0.4;
 }
+
+#main_header div:last-child a{
+    margin-top: 15px;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    opacity: 1;
+}
+
 #Drug_status{
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.2);
